@@ -76,7 +76,7 @@ export default function Footer() {
                             />
                         </div>
                         <p className="text-white text-opacity-80 text-sm">
-                            Providing premium commodity solutions for
+                            Atafia is Providing premium commodity solutions for
                             Indonesia's industrial needs.
                         </p>
                     </div>
