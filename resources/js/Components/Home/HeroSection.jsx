@@ -54,14 +54,14 @@ const HeroSection = () => {
                         transform: "translateY(20px)",
                     }}
                 >
-                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-montserrat tracking-wide">
+                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide atmospheric ">
                         <span className="block">WELCOME TO WEBSITE OF</span>
                         <span
-                            className="block mt-4 text-5xl md:text-7xl"
+                            className="block mt-4 text-5xl md:text-6xl"
                             style={{
-                                textShadow: "0 4px 8px rgba(0,0,0,0.3)",
+                                textShadow: "0 4px 8px rgba(0,0,0,0.1)",
                                 background:
-                                    "linear-gradient(45deg, #ffffff, #f0f0f0)",
+                                    "linear-gradient(45deg, #fff700, #FFD63A)",
                                 WebkitBackgroundClip: "text",
                                 backgroundClip: "text",
                                 color: "transparent",

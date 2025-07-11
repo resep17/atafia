@@ -134,3 +134,14 @@
 html {
     scroll-behavior: smooth;
 }
+
+@font-face {
+    font-family: "Atmospheric";
+    src: url("/fonts/aAtmospheric.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.atmospheric {
+    font-family: "Atmospheric", sans-serif;
+}

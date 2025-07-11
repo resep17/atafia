@@ -64,8 +64,8 @@ export default function AboutSection() {
             <div className="relative max-w-7xl mx-auto">
                 <div className="flex flex-col lg:flex-row gap-12 items-center">
                     {/* Left Column - Logo and Heading */}
-                    <div className="lg:w-1/3  flex items-center justify-center">
-                        <div className=" w-64 rounded-lg overflow-hidden">
+                    <div className="lg:w-1/3  flex items-center justify-center ">
+                        <div className="w-52 rounded-lg overflow-hidden ">
                             <img
                                 src={"/images/logo.png"}
                                 alt="Mining Operation"

@@ -21,7 +21,7 @@ const Navbar = () => {
     const navLinks = [
         { name: "Home", href: "/" },
         { name: "About", href: "/#about" },
-        { name: "Vision", href: "/#vision-mission" },
+        { name: "Core Values", href: "/#vision-mission" },
         { name: "Line Business", href: "/#business-line" },
         { name: "Contact", href: "/contact" },
     ];
@@ -41,13 +41,9 @@ const Navbar = () => {
                         <Link href="/">
                             <div className="flex items-center">
                                 <img
-                                    src="/images/logo.png"
+                                    src="/images/logo-nav.png"
                                     alt="logo"
-                                    className={`w-12 h-12 mr-2 ${
-                                        scrolled
-                                            ? "brightness-100"
-                                            : "brightness-0 invert"
-                                    }`}
+                                    className={`w-40 mr-2 `}
                                 />
                             </div>
                         </Link>

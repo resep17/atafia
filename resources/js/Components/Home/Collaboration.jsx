@@ -81,17 +81,32 @@ export default function Collaboration() {
     const partners = [
         {
             name: "Partner 1",
-            logo: "/images/logo.png",
+            logo: "/images/partnership/partnership2.jpg",
             description: "Strategic alliance for mining operations",
         },
         {
             name: "Partner 2",
-            logo: "/images/logo.png",
+            logo: "/images/partnership/partnership3.png",
             description: "Logistics and distribution partner",
         },
         {
             name: "Partner 3",
-            logo: "/images/logo.png",
+            logo: "/images/partnership/partnership4.jpg",
+            description: "Technology and innovation collaborator",
+        },
+        {
+            name: "Partner 3",
+            logo: "/images/partnership/partnership5.jpg",
+            description: "Technology and innovation collaborator",
+        },
+        {
+            name: "Partner 3",
+            logo: "/images/partnership/partnership6.jpg",
+            description: "Technology and innovation collaborator",
+        },
+        {
+            name: "Partner 3",
+            logo: "/images/partnership/partnership7.jpg",
             description: "Technology and innovation collaborator",
         },
     ];
@@ -134,7 +149,7 @@ export default function Collaboration() {
 
                 <div
                     ref={logosRef}
-                    className="grid grid-cols-1 md:grid-cols-3 gap-12 px-8"
+                    className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-12 px-8"
                 >
                     {partners.map((partner, index) => (
                         <div

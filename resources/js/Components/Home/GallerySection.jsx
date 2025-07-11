@@ -17,58 +17,65 @@ export default function GallerySection() {
         {
             id: 1,
             image: "/images/gallery/gallery8.jpg",
-            title: "Coal Mining Operation",
+            title: "Excavated Material Pile",
             description:
-                "Our steam coal extraction process in South Kalimantan",
+                "A large mound of red soil resulting from excavation activities.",
             category: "mining",
         },
         {
             id: 2,
             image: "/images/gallery/gallery1.jpg",
-            title: "Bulk Transportation",
-            description: "Efficient logistics network for timely delivery",
+            title: "High-Quality Raw Coal",
+            description:
+                "A close-up view of a freshly mined lump of raw coal, showcasing its natural texture and luster.",
             category: "logistics",
         },
         {
             id: 3,
             image: "/images/gallery/gallery2.jpg",
-            title: "Professional Team",
-            description: "Our dedicated mining experts at work",
+            title: "Rock Formations in a Mining Area",
+            description:
+                "A view of rock cliffs at a mining site, showing geological layers and the scale of the coal mining operation.",
             category: "team",
         },
         {
             id: 4,
             image: "/images/gallery/gallery3.jpg",
-            title: "Quality Control",
-            description: "Stringent quality checks at our facilities",
+            title: "Coal Mining Operation",
+            description:
+                "A wide view of a coal mining area with heavy equipment such as excavators and hauling trucks in operation, demonstrating efficiency in the mining process.",
             category: "mining",
         },
         {
             id: 5,
             image: "/images/gallery/gallery4.jpg",
-            title: "Strategic Partnership",
-            description: "Meeting with our international partners",
+            title: "Coal Transportation by Sea",
+            description:
+                "A barge loaded with coal being pulled by a tugboat across open waters, illustrating the process of coal distribution from the mining site to its final destination.",
             category: "partnership",
         },
         {
             id: 6,
             image: "/images/gallery/gallery5.jpg",
-            title: "Port Operations",
-            description: "Loading commodities at Tanjung Priok Port",
+            title: "Coal Stockpile Ready for Loading",
+            description:
+                "An aerial view of a large coal stockpile near water, ready to be loaded onto barges, illustrating the scale of post-mining storage and logistics.",
             category: "logistics",
         },
         {
             id: 7,
             image: "/images/gallery/gallery6.jpg",
-            title: "Processing Facility",
-            description: "Our state-of-the-art processing plant",
+            title: "Mining Area Landscape and Overburden Material",
+            description:
+                "A wide view of an excavated mining area, showing mounds of soil and rock materials of different colors, reflecting the topography formed by mining activities.",
             category: "facility",
         },
         {
             id: 8,
             image: "/images/gallery/gallery7.jpg",
-            title: "Safety Training",
-            description: "Regular safety drills for all employees",
+            title: "Excavated Material Pile",
+            description:
+                "A large mound of red soil resulting from excavation activities, with a cloudy sky in the background and heavy equipment faintly visible in the distance.",
             category: "team",
         },
     ];

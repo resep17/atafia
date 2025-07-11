@@ -50,7 +50,7 @@ const ContactSection = () => {
         // Format pesan untuk WhatsApp
         const whatsappMessage = `Halo, saya ${formData.name} (${formData.email}).\n\n${formData.message}`;
         const encodedMessage = encodeURIComponent(whatsappMessage);
-        const whatsappUrl = `https://wa.me/6281234567890?text=${encodedMessage}`;
+        const whatsappUrl = `https://wa.me/6281905508885?text=${encodedMessage}`;
 
         // Animasi submit
         setIsSubmitted(true);
@@ -91,7 +91,7 @@ const ContactSection = () => {
                     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap"
                     rel="stylesheet"
                 />
-                <title>Contact Us - PT ATAFIA RESOURCES RAYA</title>
+                <title>Contact Us</title>
             </Head>
 
             <Navbar />
@@ -287,12 +287,10 @@ const ContactSection = () => {
                                                 Our Address
                                             </h3>
                                             <p className="mt-1 text-white/90">
-                                                Jl. Contoh No. 123, Gedung
-                                                Example
+                                                Jl. TB Simatupang No.Kav.1
+                                                Cilandak Timur, Pasar Minggu
                                                 <br />
-                                                Jakarta Selatan, 12345
-                                                <br />
-                                                Indonesia
+                                                Kota Jakarta Selatan, Indonesia
                                             </p>
                                         </div>
                                     </div>
@@ -306,9 +304,7 @@ const ContactSection = () => {
                                                 Phone Number
                                             </h3>
                                             <p className="mt-1 text-white/90">
-                                                +62 812-3456-7890
-                                                <br />
-                                                +62 21-1234-5678
+                                                +62 819-0550-8885
                                             </p>
                                         </div>
                                     </div>
@@ -322,9 +318,7 @@ const ContactSection = () => {
                                                 Email Address
                                             </h3>
                                             <p className="mt-1 text-white/90">
-                                                info@atafiaresources.com
-                                                <br />
-                                                contact@atafiaresources.com
+                                                hallo@atafiaresources.com
                                             </p>
                                         </div>
                                     </div>
