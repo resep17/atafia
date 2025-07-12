@@ -45,4 +45,34 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    public function render($request, Throwable $e)
+    {
+        // Jika dalam maintenance mode dan bukan route yang dikecualikan
+        if (app()->isDownForMaintenance() && !$this->shouldBypassMaintenance($request)) {
+            return response()->view('maintenance', [], 503);
+        }
+
+        return parent::render($request, $e);
+    }
+
+    protected function shouldBypassMaintenance($request)
+    {
+        // Bypass untuk route admin/maintenance/up
+        if ($request->is('admin/maintenance/up')) {
+            return true;
+        }
+        // Bypass untuk route admin/maintenance/up
+        if ($request->is('super-admin/maintenance')) {
+            return true;
+        }
+
+        // 2. Bypass jika menggunakan secret key yang valid
+        $maintenanceSecret = env('MAINTENANCE_SECRET');
+        if ($request->has('secret') && hash_equals($maintenanceSecret, $request->get('secret'))) {
+            return true;
+        }
+
+        return false;
+    }
 }

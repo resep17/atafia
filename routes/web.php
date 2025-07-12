@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MaintenanceController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -26,6 +27,10 @@ Route::get('/contact', function () {
 Route::fallback(function () {
     return Inertia::render('NotFound');
 });
+
+Route::post('/admin/maintenance/down', [MaintenanceController::class, 'down']);
+Route::post('/admin/maintenance/up', [MaintenanceController::class, 'up']);
+Route::get('/super-admin/maintenance', [MaintenanceController::class, 'index']);
 
 // Route::get('/dashboard', function () {
 //     return Inertia::render('Dashboard');

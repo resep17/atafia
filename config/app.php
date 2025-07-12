@@ -109,6 +109,7 @@ return [
     */
 
     'faker_locale' => 'en_US',
+    'maintenance_secret' => env('MAINTENANCE_SECRET', 'default-secret'),
 
     /*
     |--------------------------------------------------------------------------
