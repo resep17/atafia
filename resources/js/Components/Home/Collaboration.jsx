@@ -91,7 +91,7 @@ export default function Collaboration() {
         },
         {
             name: "Partner 3",
-            logo: "/images/partnership/partnership4.jpg",
+            logo: "/images/partnership/partnership8.jpg",
             description: "Technology and innovation collaborator",
         },
         {
