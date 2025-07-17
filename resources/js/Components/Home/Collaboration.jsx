@@ -118,8 +118,8 @@ export default function Collaboration() {
             id="collaboration"
         >
             {/* Decorative elements */}
-            <div className="absolute top-0 left-0 w-32 h-32 bg-[#820000] rounded-full opacity-10 transform -translate-x-16 -translate-y-16"></div>
-            <div className="absolute bottom-0 right-0 w-48 h-48 bg-red-600 rounded-full opacity-10 transform translate-x-16 translate-y-16"></div>
+            <div className="absolute top-0 left-0 w-32 h-32 bg-[#820000] rounded-full opacity-40 transform -translate-x-16 -translate-y-16"></div>
+            <div className="absolute bottom-0 right-0 w-48 h-48 bg-[#820000] rounded-full opacity-40 transform translate-x-16 translate-y-16"></div>
 
             <div className="relative max-w-7xl mx-auto">
                 <div className="text-center mb-16">
@@ -173,8 +173,8 @@ export default function Collaboration() {
                 </div>
 
                 {/* Additional decorative elements */}
-                <div className="absolute left-1/4 top-1/3 w-8 h-8 bg-red-600 rounded-full opacity-10"></div>
-                <div className="absolute right-1/3 bottom-1/4 w-12 h-12 bg-[#820000] rounded-full opacity-10"></div>
+                <div className="absolute left-1/4 top-1/3 w-8 h-8 bg-[#820000] rounded-full opacity-5"></div>
+                <div className="absolute right-1/3 bottom-1/4 w-12 h-12 bg-[#820000] rounded-full opacity-20"></div>
             </div>
         </section>
     );

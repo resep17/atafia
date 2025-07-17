@@ -21,7 +21,7 @@ const Navbar = () => {
     const navLinks = [
         { name: "Home", href: "/" },
         { name: "About", href: "/#about" },
-        { name: "Core Values", href: "/#vision-mission" },
+        { name: "Our Core Values", href: "/#vision-mission" },
         { name: "Line Business", href: "/#business-line" },
         { name: "Contact", href: "/contact" },
     ];

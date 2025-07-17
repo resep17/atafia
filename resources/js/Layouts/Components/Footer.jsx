@@ -64,17 +64,14 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
                     {/* Company Info */}
-                    <div className="space-y-4">
-                        <div
+                    <div className="">
+                        <img
                             ref={logoRef}
-                            className="text-2xl font-bold tracking-wider"
-                        >
-                            <img
-                                src="/images/logo-nama.png"
-                                alt="logo"
-                                className="w-52 brightness-0 invert"
-                            />
-                        </div>
+                            src="/images/logo-nav.png"
+                            alt="logo"
+                            className="w-52 mb-6"
+                        />
+
                         <p className="text-white text-opacity-80 text-sm">
                             Atafia is Providing premium commodity solutions for
                             Indonesia's industrial needs.

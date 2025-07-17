@@ -48,31 +48,33 @@ const HeroSection = () => {
                 {/* Konten teks */}
                 <div
                     ref={textRef}
-                    className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4"
+                    className="relative z-10 h-full flex flex-col items-center justify-center text-center"
                     style={{
                         opacity: 0,
                         transform: "translateY(20px)",
                     }}
                 >
-                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide atmospheric ">
-                        <span className="block">WELCOME TO WEBSITE OF</span>
-                        <span
-                            className="block mt-4 text-5xl md:text-6xl"
-                            style={{
-                                textShadow: "0 4px 8px rgba(0,0,0,0.1)",
-                                background:
-                                    "linear-gradient(45deg, #fff700, #FFD63A)",
-                                WebkitBackgroundClip: "text",
-                                backgroundClip: "text",
-                                color: "transparent",
-                            }}
-                        >
-                            PT ATAFIA RESOURCES RAYA
-                        </span>
-                    </h1>
+                    <div className="p-4 border-4 rounded-[40px]">
+                        <h1 className="text-4xl md:text-6xl font-bold text-white tracking-wide atmospheric ">
+                            <span className="block">WELCOME TO WEBSITE OF</span>
+                            <span
+                                className="block mt-4 text-5xl md:text-6xl"
+                                style={{
+                                    textShadow: "0 4px 8px rgba(0,0,0,0.1)",
+                                    background:
+                                        "linear-gradient(45deg, #fff700, #FFD63A)",
+                                    WebkitBackgroundClip: "text",
+                                    backgroundClip: "text",
+                                    color: "transparent",
+                                }}
+                            >
+                                PT ATAFIA RESOURCES RAYA
+                            </span>
+                        </h1>
+                    </div>
 
                     <p
-                        className="text-xl md:text-2xl text-white mt-6 max-w-2xl leading-relaxed"
+                        className="text-xl md:text-2xl text-white mt-10 max-w-2xl leading-relaxed"
                         style={{
                             textShadow: "0 2px 4px rgba(0,0,0,0.5)",
                         }}

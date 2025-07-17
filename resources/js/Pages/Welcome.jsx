@@ -13,7 +13,7 @@ import { Head } from "@inertiajs/react";
 export default function Welcome(props) {
     return (
         <>
-            <Head title="Welcome" />
+            <Head title="Home" />
             <div className="min-h-screen font-sans scroll-smooth">
                 <Navbar />
 
