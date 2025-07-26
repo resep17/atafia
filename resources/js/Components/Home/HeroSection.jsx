@@ -56,9 +56,7 @@ const HeroSection = () => {
                 >
                     <div className="p-4 border-4 rounded-[40px]">
                         <h1 className="text-4xl md:text-6xl font-bold text-white tracking-wide atmospheric ">
-                            <span className="block">WELCOME TO WEBSITE OF</span>
                             <span
-                                className="block mt-4 text-5xl md:text-6xl"
                                 style={{
                                     textShadow: "0 4px 8px rgba(0,0,0,0.1)",
                                     background:
@@ -67,7 +65,11 @@ const HeroSection = () => {
                                     backgroundClip: "text",
                                     color: "transparent",
                                 }}
+                                className="block"
                             >
+                                WELCOME TO WEBSITE OF
+                            </span>
+                            <span className="block mt-4 text-5xl md:text-6xl">
                                 PT ATAFIA RESOURCES RAYA
                             </span>
                         </h1>

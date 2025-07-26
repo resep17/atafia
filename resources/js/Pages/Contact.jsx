@@ -303,9 +303,14 @@ const ContactSection = () => {
                                             <h3 className="text-lg font-medium text-white">
                                                 Phone Number
                                             </h3>
-                                            <p className="mt-1 text-white/90">
-                                                +62 819-0550-8885
-                                            </p>
+                                            <div>
+                                                <p className="mt-1 text-white/90">
+                                                    +62 819-0550-8885
+                                                </p>
+                                                <p className="mt-1 text-white/90">
+                                                    +62 813-5142-7797
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -317,9 +322,14 @@ const ContactSection = () => {
                                             <h3 className="text-lg font-medium text-white">
                                                 Email Address
                                             </h3>
-                                            <p className="mt-1 text-white/90">
-                                                hallo@atafiaresources.com
-                                            </p>
+                                            <div>
+                                                <p className="mt-1 text-white/90">
+                                                    hallo@atafiaresources.com
+                                                </p>
+                                                <p className="mt-1 text-white/90">
+                                                    atafiares@gmail.com
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

@@ -17,9 +17,9 @@ export default function GallerySection() {
         {
             id: 1,
             image: "/images/gallery/gallery8.jpg",
-            title: "Excavated Material Pile",
+            title: "Nickel Pile at ETO (Exportable Transit Ore)",
             description:
-                "A large mound of red soil resulting from excavation activities.",
+                "Mound of nickel at Stock room PIT resulting from mining activities.",
             category: "mining",
         },
         {
@@ -33,9 +33,9 @@ export default function GallerySection() {
         {
             id: 3,
             image: "/images/gallery/gallery2.jpg",
-            title: "Rock Formations in a Mining Area",
+            title: "Coal Formation Strike",
             description:
-                "A view of rock cliffs at a mining site, showing geological layers and the scale of the coal mining operation.",
+                "A view Coal exposed at a mining site, showing of the coal mining operation",
             category: "team",
         },
         {
@@ -57,9 +57,9 @@ export default function GallerySection() {
         {
             id: 6,
             image: "/images/gallery/gallery5.jpg",
-            title: "Coal Stockpile Ready for Loading",
+            title: "Coal Exposure",
             description:
-                "An aerial view of a large coal stockpile near water, ready to be loaded onto barges, illustrating the scale of post-mining storage and logistics.",
+                "A view of mounted Coal exposed at a mining site, Showing of the coal is ready to coal geting",
             category: "logistics",
         },
         {
@@ -73,9 +73,9 @@ export default function GallerySection() {
         {
             id: 8,
             image: "/images/gallery/gallery7.jpg",
-            title: "Excavated Material Pile",
+            title: "Nickel Pile at EFO (Exportable Fine Ore)",
             description:
-                "A large mound of red soil resulting from excavation activities, with a cloudy sky in the background and heavy equipment faintly visible in the distance.",
+                "Mound of nickel at Stockpile, resulting from hauling activities and ready to loading",
             category: "team",
         },
     ];
