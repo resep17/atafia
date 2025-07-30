@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
     {{-- Favicon --}}
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/revi1-apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/revi1-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/revi1-favicon-16x16.png">
     <link rel="manifest" href="/favicons/site.webmanifest">
 
     <!-- Scripts -->
