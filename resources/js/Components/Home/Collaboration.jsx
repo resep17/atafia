@@ -154,15 +154,15 @@ export default function Collaboration() {
                     {partners.map((partner, index) => (
                         <div
                             key={index}
-                            className="logo-item flex flex-col items-center group"
+                            className="logo-item flex flex-col items-center group justify-center"
                         >
                             {/* Simplified logo container */}
-                            <div className="relative w-full flex items-center justify-center mb-6 p-8">
+                            <div className="relative w-full flex items-center justify-center p-2 ">
                                 {/* Logo with hover effect */}
                                 <img
                                     src={partner.logo}
                                     alt={partner.name}
-                                    className="max-h-32 max-w-full object-contain transition-all duration-300 group-hover:scale-110 filter grayscale group-hover:grayscale-0"
+                                    className="max-w-full object-contain transition-all duration-300 group-hover:scale-110  "
                                 />
 
                                 {/* Decorative element (only on hover) */}
