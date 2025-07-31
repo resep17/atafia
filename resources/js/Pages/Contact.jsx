@@ -324,7 +324,7 @@ const ContactSection = () => {
                                             </h3>
                                             <div>
                                                 <p className="mt-1 text-white/90">
-                                                    hallo@atafiaresources.com
+                                                    hallo@atafia.com
                                                 </p>
                                                 <p className="mt-1 text-white/90">
                                                     atafiares@gmail.com

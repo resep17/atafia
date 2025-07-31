@@ -180,7 +180,7 @@ export default function Footer() {
                                     />
                                 </svg>
                                 <div>
-                                    <p> hallo@atafiaresources.com</p>
+                                    <p> hallo@atafia.com</p>
                                     <p> atafiares@gmail.com</p>
                                 </div>
                             </li>
