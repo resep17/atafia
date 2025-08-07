@@ -56,15 +56,11 @@ export default function Footer() {
     const platform = [
         {
             name: "instagram",
-            href: "https://www.instagram.com/",
+            href: "https://www.instagram.com/atafia.resources",
         },
         {
             name: "linkedIn",
             href: "http://www.linkedin.com/in/atafia",
-        },
-        {
-            name: "facebook",
-            href: "https://www.facebook.com/",
         },
     ];
     return (
@@ -87,9 +83,11 @@ export default function Footer() {
                             className="w-52 mb-6"
                         />
 
-                        <p className="text-white text-opacity-80 text-sm">
-                            Atafia is Providing premium commodity solutions for
-                            Indonesia's industrial needs.
+                        <p className="text-white text-opacity-80 text-sm ml-5">
+                            PT. ATAFIA RESOURCES RAYA, is providing premium
+                            commodity solution for your Industrial Plant, Power
+                            Plant and any kind of your company needs in minerals
+                            resources
                         </p>
                     </div>
 
@@ -162,7 +160,6 @@ export default function Footer() {
 
                                 <div>
                                     <p> +62 819-0550-8885</p>
-                                    <p> +62 813-5142-7797</p>
                                 </div>
                             </li>
                             <li className="flex items-center">
@@ -189,10 +186,10 @@ export default function Footer() {
 
                     {/* Social Media */}
                     <div>
-                        <h3 className="text-lg font-semibold mb-4 border-b border-white border-opacity-20 pb-2">
+                        <h3 className="text-lg font-semibold mb-4 border-b border-white border-opacity-20 pb-2 lg:text-center">
                             Follow Us
                         </h3>
-                        <div className="flex space-x-4">
+                        <div className="flex space-x-4 items-center lg:justify-center">
                             {platform.map((platform, index) => (
                                 <a
                                     key={index}

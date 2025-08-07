@@ -9,7 +9,6 @@ import {
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Navbar from "@/Layouts/Components/Navbar";
-import Footer from "@/Layouts/Components/Footer";
 
 const ContactSection = () => {
     const textRef = useRef(null);
@@ -17,6 +16,7 @@ const ContactSection = () => {
         name: "",
         email: "",
         message: "",
+        company: "",
     });
     const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -48,7 +48,7 @@ const ContactSection = () => {
         e.preventDefault();
 
         // Format pesan untuk WhatsApp
-        const whatsappMessage = `Halo, saya ${formData.name} (${formData.email}).\n\n${formData.message}`;
+        const whatsappMessage = `Halo, saya ${formData.name} (${formData.email}).\nDari perusahaan ${formData.company}.\n\n${formData.message}`;
         const encodedMessage = encodeURIComponent(whatsappMessage);
         const whatsappUrl = `https://wa.me/6281905508885?text=${encodedMessage}`;
 
@@ -206,6 +206,23 @@ const ContactSection = () => {
                                             className="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-red-500 focus:border-red-500 transition duration-300"
                                         />
                                     </div>
+                                    <div>
+                                        <label
+                                            htmlFor="company"
+                                            className="block text-sm font-medium text-gray-700 mb-1"
+                                        >
+                                            Company
+                                        </label>
+                                        <input
+                                            type="company"
+                                            id="company"
+                                            name="company"
+                                            value={formData.company}
+                                            onChange={handleChange}
+                                            required
+                                            className="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-red-500 focus:border-red-500 transition duration-300"
+                                        />
+                                    </div>
 
                                     <div>
                                         <label
@@ -306,9 +323,6 @@ const ContactSection = () => {
                                             <div>
                                                 <p className="mt-1 text-white/90">
                                                     +62 819-0550-8885
-                                                </p>
-                                                <p className="mt-1 text-white/90">
-                                                    +62 813-5142-7797
                                                 </p>
                                             </div>
                                         </div>
